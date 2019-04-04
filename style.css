@@ -1,0 +1,130 @@
+body{
+display:block;
+background-color: white;
+margin-left: 10%;
+margin-right: 10%;
+filter: drop-shadow(1px 20px 20px black);
+}
+h1{
+  background: red;
+  padding: 5px;
+  color: white;
+  border: solid black 2px;
+}
+header{
+  background-image: url("Header-background.jpg");
+  background-size: cover;
+  height: 300px;
+  display: grid;
+  align-items: center;
+
+}
+h2.name{
+   color: black;
+   justify-self: center;
+   font-size: 80px;
+}
+
+article{
+  background-color: white;
+  display:block;
+}
+
+.profile {
+  height: 700px;
+  padding: 5%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background-image: url("black-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.avatar {
+  height: 70%;
+  width: 100%;
+  box-shadow: 10px 10px 79px 4px black;
+  background-image: url("mmo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.summary{
+  height: 70%;
+  width: 100%;
+  color: white;
+  padding-left: 5%;
+}
+
+.education {
+  height: 500px;
+  padding: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("paper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+
+}
+
+.box{
+  padding: 3%;
+  box-shadow: 4px 5px 90px -3px black;
+  display:grid;
+  grid-template-columns: 1fr 4fr 4fr;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areas:
+  "tital . ."
+  ". column1 column2";
+  justify-items: center;
+   align-items: center;
+   height: 70%;
+   width: 80%;
+  background-color: white;
+}
+.edu1{
+  grid-area: column1;
+  border: dashed blue thin;
+  padding: 20px;
+}
+.edu2{
+  grid-area: column2;
+  border: dashed blue thin;
+  padding: 20px;
+}
+.education h1{
+  grid-area: tital;
+}
+
+.experianc{
+  align-items: center;
+  justify-content: center;
+  padding:3%;
+  height: 500px;
+  display: flex;
+  background-color: #AA76FF;
+  box-shadow:inset 4px 5px 50px -3px black;
+}
+.exp1{
+  height: 70%;
+  padding: 20px;
+  border-radius: 15%;
+  margin-right: 40px;
+  background-color: white;
+  box-shadow: 4px 5px 50px -5px black;
+}
+.exp2{
+  height: 70%;
+  padding: 20px;
+  border-radius: 15%;
+  margin-right: 40px;
+  background-color: white;
+  box-shadow: 4px 5px 50px -5px black;
+}
+.experianc h1{
+  align-self: flex-start;
+  margin-right: 40px;
+}
